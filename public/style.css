@@ -1,0 +1,114 @@
+ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem;
+}
+
+::marker {
+  color: red;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: red;
+}
+
+body {
+  background-color: lightgray;
+  padding: 2rem 1rem;
+}
+
+main {
+  padding: 0.5rem 1rem;
+}
+
+header {
+  width: 100%;
+  height: 2rem;
+  background-color: rgba(255, 255, 255, 0.877);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.part-one > img {
+  width: 50%;
+  height: 40rem;
+}
+
+.part-two > img {
+  width: 40%;
+  height: 35rem;
+}
+
+.part-one,
+.part-two {
+  display: flex;
+}
+
+.part-oneParag,
+.part-twoParag {
+  display: block;
+  text-align: center;
+  padding: 11rem 1rem;
+}
+
+/* services */
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-one,
+.card-two {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card-one:hover,
+.card-two:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container-one,
+.container-two {
+  padding: 2px 16px;
+}
+
+/* contact */
+
+.contact {
+  padding: 2rem 2rem;
+}
+
+.contact > img {
+  width: 90%;
+  position: fixed;
+  z-index: 0;
+}
+
+.contact > h1 {
+  color: white;
+  position: fixed;
+  z-index: 1;
+  padding: 15rem 10rem;
+}
+
+.contact > p {
+  font-size: large;
+  color: white;
+  position: fixed;
+  z-index: 1;
+  padding: 20rem 10rem;
+}
